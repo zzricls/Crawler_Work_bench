@@ -182,12 +182,12 @@ pyinstaller --noconfirm --windowed --name CrawlerWorkbench main.py
 - 并发数、请求间隔都内置了保守默认值，别为了快把站点打死——被封 IP 的是你自己。
 - 遇到 Cloudflare 等强反爬站的验证码，这五个窗口都过不去，这是浏览器自动化的能力边界。
 
+## 重要声明
+本程序借助DSH进行了对原先ui，app，core三大软件包的整合(三大软件包均未上传)，主要是为了方便上传至仓库。
+
 ## License
 
 [MIT](LICENSE) © 2026 zzricls
-
-## 重要声明
-本程序借助DSH进行了对原先ui，app，core三大软件包的整合(三大软件包均未上传)，主要是为了方便上传至仓库。
 
 第三方库遵循各自的许可（Scrapy/BSD、Playwright/Apache-2.0、pygame/LGPL、Pillow、aiohttp、requests 等），
 打包分发时请一并保留它们的许可声明。
